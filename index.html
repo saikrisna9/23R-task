@@ -7,15 +7,23 @@
     <style>
         .main{
             border:2px solid black;
-            height: 100vh;
-            width:100vw;
-            background-color: azure;
+            height:100vh;
+             width:80vw;
+            background-color:palevioletred;
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
         }
+        .main1{
+            display: flex;
+            flex-direction: row;
+           
+        }
+
         .cd1{
             border:1px solid black;
-            height: 40vh;
+            height:40vh;
             width:10vw;
             background-color:brown;
             border-radius: 5%;
@@ -135,7 +143,7 @@
             width:10vw;
             background-color:brown;
             border-radius: 5%;
-            background-image: url("../assets/images/modi.jpg");
+            background-image: url("../assets/images/dhoni3.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
             transition: 1s;
@@ -146,19 +154,34 @@
             width:30vw;
             
         }
+        .main2{
+            display: flex;
+            flex-direction: row;
+           
+        }
+        h1{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+    <h1>Transform-Transition property </h1>
     <div class="main">
+       
+    <div class="main1">
         <div class="cd1"></div>
         <div class="cd2"></div>
         <div class="cd3"></div>
         <div class="cd4"></div>
-        <div><div class="cd5"></div>
-        <div class="cd6"></div>
-        <div class="cd7"></div>
-        <div class="cd8"></div>
     </div>
-    </div>
+       
+            <div class="main2">
+                <div class="cd5"></div>
+                <div class="cd6"></div>
+                <div class="cd7"></div>
+                <div class="cd8"></div>
+            </div>
+        
+</div>
 </body>
 </html>
